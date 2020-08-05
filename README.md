@@ -1,3 +1,4 @@
+```sql
 DROP FUNCTION IF EXISTS fn_remove_accents;
 DELIMITER |
 CREATE FUNCTION fn_remove_accents( textvalue VARCHAR(10000) ) RETURNS VARCHAR(10000)
@@ -30,3 +31,5 @@ BEGIN
 END
 |
 DELIMITER ;
+
+```
